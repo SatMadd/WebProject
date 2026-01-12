@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'ci3_db',
+	'hostname' => 'sql309.infinityfree.com',
+	'username' => 'if0_40880509',
+	'password' => '9xaLzZRIBRNSU7',
+	'database' => 'if0_40880509_ci3_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
