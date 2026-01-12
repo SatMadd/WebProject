@@ -6,7 +6,7 @@ class User extends CI_Controller {
     public function __construct() {
         parent::__construct();
         // Cek apakah user sudah login atau belum
-        if (!$this->session->userdata('logged_in')) {
+        if (!$this->session->userdata('email')) {
             $this->session->set_flashdata('error', 'Silahkan login terlebih dahulu!');
             redirect('auth/login');
         }

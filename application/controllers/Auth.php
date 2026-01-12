@@ -14,6 +14,7 @@ $online_users = $this->db->count_all_results('users');
 
    
     public function register() {
+
         // Rule validasi input
         $this->form_validation->set_rules('username', 'Username', 'required|trim|is_unique[users.username]');
         $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[users.email]');
